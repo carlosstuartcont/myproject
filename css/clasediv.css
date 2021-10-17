@@ -1,0 +1,147 @@
+/*Mobile Styles*/
+
+@media only screen and (min-width: 768px){
+body {
+    background-color: black;
+}
+}
+
+/*Tablet Styles*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px){
+    body {
+        background: black;
+    }
+}
+
+/*Desktop Styles*/
+
+@media only screen and (min-width: 961px){
+    body{
+        background-color: black;
+    }
+}
+
+body {
+    background-color:rgb(7, 0, 8);
+    font-family: 'Pompiere', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.padre-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color:cadetblue;
+    flex-direction: row;
+    padding: 5px;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.padre-flex div{
+    background-color: gainsboro;
+    width: 15%;
+    margin: 10px;
+    padding: 5px;
+    text-align:justify;
+    line-height: 25px;
+    font-size: normal;
+    border: 2px solid black;
+}
+
+.grid-container {
+    display: grid;
+    background-color:rgb(173, 230, 213);
+    background-repeat: no-repeat;
+    grid-template-areas: 'header header header' 'menu main aside' 'footer footer footer';
+    column-gap: 5px;
+    row-gap: 10px;
+    justify-content: justify;
+    font-family: 'Pompiere', cursive;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.grid-container div{
+    background-color:rgb(173, 230, 213);
+    background-image: url("../fondo/connect.jpg");
+    text-align: justify;
+    padding: 5px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.main {
+    grid-area: main;
+
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    list-style-image: url("../imagenes/disco.png");
+    padding: 10px;
+    margin: 0;
+    margin-left: 25px;
+}
+
+
+h1 {
+    color: #c1a6e2; font-weight: normal; font-size: 40px; font-family: Arial; text-transform: uppercase; text-align: center; padding:5px; margin-left: 50px; margin-right: 50px; margin-top: 0px; background: linear-gradient(to top, #000, #ccc); border-style: groove;  font-weight: bold;
+}
+
+h2 {
+    color: #c1a6e2; font-weight: normal; font-size: 40px; font-family: Arial; text-transform: initial; text-align: center; padding:5px; margin-right: 50px; margin-left: 50px; background: linear-gradient(90deg, #000, #ccc);
+
+}
+
+h5 {
+    border-color: lightseagreen; border-style: dashed; color:mediumpurple; text-align:center; text-transform: capitalize;
+}
+
+#main-container {
+    margin: 50px auto;
+    width: 600px;
+    padding:0px;
+}
+
+table {
+    background-color: white; text-align: left; width: 100%; border-collapse: collapse; 
+}
+
+th, td {
+    padding: 20px; font-family: Arial; font-size: 20px; text-align: center;
+}
+
+thead {
+    background-color:lightcoral; border-bottom: solid 5px lightcyan; color: white;
+}
+
+a {
+    text-decoration: none; color:lightcoral; 
+}
+
+a:visited {
+
+    color: blueviolet;
+}
+
+a:hover {
+    background-color: beige;
+}

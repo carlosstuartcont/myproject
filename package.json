@@ -1,0 +1,14 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "Carpeta que contiene todos los archivos de mi proyecto.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "node-sass --include-path scss scss/style.css css/main.css"
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    $ npm run watch-css
+  },
+  "author": "Carlos Alberto Stuart Contreras.",
+  "license": "ISC"
+}
